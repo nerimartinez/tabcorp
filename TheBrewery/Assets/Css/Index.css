@@ -1,0 +1,42 @@
+﻿#container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.beer-item {
+    border: 1px solid black;
+    width: 100px;
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.beer-item span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.beer-item strong {
+    display: block;
+}
+
+.beer-item span {
+    color: green;
+}
+
+.beer-item span.warning {
+    color: red;
+}
+
+@media screen and (max-width: 1024px) {
+    .beer-item {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
